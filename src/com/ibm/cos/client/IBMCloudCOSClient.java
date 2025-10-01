@@ -169,7 +169,7 @@ public class IBMCloudCOSClient extends JFrame {
             if (!e.getValueIsAdjusting()) {
                 int[] selectedRows = fileTable.getSelectedRows();
                 if (selectedRows.length > 0) {
-                    // Para download, habilita se tiver pelo menos 1 arquivo selecionado
+                    // For download, enable if at least 1 file is selected
                     boolean enableDownload = false;
                     for (int row : selectedRows) {
                         String type = tableModel.getValueAt(row, 1).toString();
@@ -181,7 +181,7 @@ public class IBMCloudCOSClient extends JFrame {
                     }
                     downloadButton.setEnabled(enableDownload);
                     
-                    // Para delete, habilita se não tiver nenhum item "parent" selecionado
+                    // For delete, enable if no "parent" item is selected
                     boolean enableDelete = true;
                     for (int row : selectedRows) {
                         String name = tableModel.getValueAt(row, 0).toString();
@@ -496,7 +496,7 @@ public class IBMCloudCOSClient extends JFrame {
         int[] selectedRows = fileTable.getSelectedRows();
         if (selectedRows.length == 0) return;
 
-        // Coletar apenas arquivos selecionados (não pastas)
+        // Collect only selected files (not folders)
         java.util.List<String> filesToDownload = new ArrayList<>();
         for (int row : selectedRows) {
             String name = tableModel.getValueAt(row, 0).toString();
