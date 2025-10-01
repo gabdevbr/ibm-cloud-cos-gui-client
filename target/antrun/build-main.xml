@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <echo message="Preparing distribution package..." />
+    <copy file="target/ibm-cos-client.jar" tofile="ibm-cos-client.jar" overwrite="true" />
+    <echo message="Distribution package ready!" />
+    <echo message="Files for distribution:" />
+    <echo message="  - ibm-cos-client.jar (main executable)" />
+    <echo message="  - run.sh (macOS/Linux launcher)" />
+    <echo message="  - run.bat (Windows launcher)" />
+    <echo message="  - README-DISTRIBUICAO.md (documentation)" />
+  </target>
+</project>

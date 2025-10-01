@@ -1,0 +1,14 @@
+/Users/gab/repo/ibm-cloud-cos-gabzao/src/com/ibm/cos/client/auth/AuthenticationException.java
+/Users/gab/repo/ibm-cloud-cos-gabzao/src/com/ibm/cos/client/service/StorageException.java
+/Users/gab/repo/ibm-cloud-cos-gabzao/src/com/ibm/cos/client/service/IBMCloudStorageService.java
+/Users/gab/repo/ibm-cloud-cos-gabzao/src/com/ibm/cos/client/model/FileItem.java
+/Users/gab/repo/ibm-cloud-cos-gabzao/src/com/ibm/cos/client/util/FileUtils.java
+/Users/gab/repo/ibm-cloud-cos-gabzao/src/com/ibm/cos/client/operation/FileOperationHandler.java
+/Users/gab/repo/ibm-cloud-cos-gabzao/src/com/ibm/cos/client/model/ConnectionConfig.java
+/Users/gab/repo/ibm-cloud-cos-gabzao/src/com/ibm/cos/client/model/Credentials.java
+/Users/gab/repo/ibm-cloud-cos-gabzao/src/com/ibm/cos/client/operation/CloudFileOperationHandler.java
+/Users/gab/repo/ibm-cloud-cos-gabzao/src/com/ibm/cos/client/IBMCloudCOSClient.java
+/Users/gab/repo/ibm-cloud-cos-gabzao/src/com/ibm/cos/client/operation/FileOperationListener.java
+/Users/gab/repo/ibm-cloud-cos-gabzao/src/com/ibm/cos/client/auth/AuthenticationService.java
+/Users/gab/repo/ibm-cloud-cos-gabzao/src/com/ibm/cos/client/service/CloudStorageService.java
+/Users/gab/repo/ibm-cloud-cos-gabzao/src/com/ibm/cos/client/auth/IBMAuthenticationService.java
